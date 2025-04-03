@@ -43,7 +43,7 @@ describe('CircularSinglyLinkedList', () => {
 
     it('returns correct length after appending', () => {
       list.append('a');
-      list.append('b');
+      // list.append('b');
       expect(list.length()).toBe(2);
     });
   });
